@@ -22,3 +22,88 @@ nav a {
   text-decoration: none;
   margin-right: 20px;
 }
+#home-section{
+  background:rgba(0, 0, 0, 0.7) url(./380534.png);
+  width: 100%;
+  height: 500px;
+  margin-top: -20px;
+  background-blend-mode: darken;
+  background-size: 100%,100%;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+}
+#home-section h1,
+#home-section h4{
+  justify-content: center;
+  align-items: center;
+}
+#home-section div{
+ position: absolute;
+  margin-left: 15%;
+  margin-top: 30px;
+}
+.h1,h4{
+  color: white;
+}
+
+#about_div{
+  position: absolute;
+  /* border: 2px solid blue; */
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  background-color: #333;
+}
+
+#about_div>div:nth-child(1){
+width: 100%;
+text-align: center;
+/* border: 2px solid green; */
+
+}
+#about_div img{
+  border-radius: 100%;
+}
+#about_div>div:nth-child(2){
+width: 80%;
+/* border: 2px solid rebeccapurple; */
+color: white;
+
+}
+#about_div h1{
+  font-size: 35px;
+  line-height: 0.3;
+}
+#about_div p,h1{
+  color: white;
+  font-weight: 700;
+  font-size: larger;
+}
+#about_div button{
+  border: none;
+  padding: 10px;
+  font-size: 29px;
+  border-radius: 3px;
+  background-color: antiquewhite;
+}
+#about_div button:hover{
+  background-color: rgb(212, 190, 162);
+
+}
+
+@media all and (min-width: 200px) and (max-width: 630px){
+  #about_div{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  #about_div>div:nth-child(2){
+    width: 100%;
+    border: 2px solid rebeccapurple;
+    color: white;
+    
+    }
+    
+
+}
