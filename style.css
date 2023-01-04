@@ -36,12 +36,12 @@ nav a {
   /* border: 2px solid yellow; */
   border: 1px solid white;
 }
-#home-section h1,
+/* #home-section h1,
 #home-section h4{
-  /* justify-content: center;  */
-  /* align-items: center; */
-  /* color: rebeccapurple; */
-}
+   justify-content: center;  
+  align-items: center; 
+ color: rebeccapurple; 
+} */
 #home-section div{
   margin-left: 15%;
   margin-top: 30px;
@@ -50,18 +50,30 @@ nav a {
 .h1,h4{
   color: white;
    font-size: larger;
+   align-items: center;
+   justify-content: center;
 }
 .title{
   font-size: 30px;
+  border: 2px solid blue;
+
+}
+#about_me_head{
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  text-decoration: underline;
 }
 
 #about_div{
-  border: 2px solid blue;
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  background-color: #333;
 }
 
+#about_me_con{
+  background-color: #333;
+}
 #about_div>div:nth-child(1){
 width: 100%;
 text-align: center;
@@ -77,9 +89,15 @@ width: 80%;
 color: white;
 
 }
+#user-detail-name{
+  display: flex;
+  flex-wrap: nowrap;
+  line-height:50px;
+}
 #about_div h1{
   font-size: 35px;
-  line-height: 0.3;
+  line-height: 0.9;
+  margin: auto;
 }
 #about_div p,h1{
   color: white;
@@ -97,6 +115,7 @@ color: white;
   background-color: rgb(212, 190, 162);
 
 }
+
 
 @media all and (min-width: 200px) and (max-width: 630px){
   #about_div{
@@ -118,5 +137,7 @@ color: white;
       margin-top: 30px;
       width: 100%;
     }
-
+    #about_div p,h1{
+      justify-content: center;
+    }
 }
