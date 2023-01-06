@@ -59,6 +59,8 @@ nav a {
 
 }
 #about_me_head{
+  padding-top: 30px;
+
   font-size: 28px;
   justify-content: center;
   text-align: center;
@@ -115,6 +117,38 @@ color: white;
   background-color: rgb(212, 190, 162);
 
 }
+
+#skills_div{
+  border: 2px solid red;
+  width: 90%;
+  margin: auto;
+  display: grid;;
+  justify-content: center;
+  margin: auto;
+  grid-template-columns: repeat(4,1fr);
+}
+
+#skills_div div{
+  border: 2px solid blue;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media all and (min-width: 200px) and (max-width: 630px){
