@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color:rgb(114, 151, 139)
+  background-color: rgb(114, 151, 139)
 }
 
 #nav-menu {
@@ -28,7 +28,8 @@ nav a {
   text-decoration: none;
   margin-right: 20px;
 }
-#home-section{
+
+#home-section {
   width: 100%;
   /* margin-top: 50px; */
   /* position: static; */
@@ -36,29 +37,34 @@ nav a {
   /* border: 2px solid yellow; */
   border: 1px solid white;
 }
+
 /* #home-section h1,
 #home-section h4{
    justify-content: center;  
   align-items: center; 
  color: rebeccapurple; 
 } */
-#home-section div{
+#home-section div {
   margin-left: 15%;
   margin-top: 30px;
   border: 3px solid green;
 }
-.h1,h4{
+
+.h1,
+h4 {
   color: white;
-   font-size: larger;
-   align-items: center;
-   justify-content: center;
+  font-size: larger;
+  align-items: center;
+  justify-content: center;
 }
-.title{
+
+.title {
   font-size: 30px;
   border: 2px solid blue;
 
 }
-#about_me_head{
+
+#about_me_head {
   padding-top: 30px;
 
   font-size: 28px;
@@ -68,71 +74,148 @@ nav a {
   text-decoration: underline;
 }
 
-#about_div{
+#about_div {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
-#about_me_con{
+#about_me_con {
   background-color: #333;
 }
-#about_div>div:nth-child(1){
-width: 100%;
-text-align: center;
-/* border: 2px solid green; */
+
+#about_div>div:nth-child(1) {
+  width: 100%;
+  text-align: center;
+  /* border: 2px solid green; */
 
 }
-#about_div img{
+
+#about_div img {
   border-radius: 100%;
 }
-#about_div>div:nth-child(2){
-width: 80%;
-/* border: 2px solid rebeccapurple; */
-color: white;
+
+#about_div>div:nth-child(2) {
+  width: 80%;
+  /* border: 2px solid rebeccapurple; */
+  color: white;
 
 }
-#user-detail-name{
+
+#user-detail-name {
   display: flex;
   flex-wrap: nowrap;
-  line-height:50px;
+  line-height: 50px;
 }
-#about_div h1{
+
+#about_div h1 {
   font-size: 35px;
   line-height: 0.9;
   margin: auto;
 }
-#about_div p,h1{
+
+#about_div p,
+h1 {
   color: white;
   font-weight: 700;
   font-size: larger;
 }
-#about_div button{
+
+#about_div button {
   border: none;
   padding: 10px;
   font-size: 29px;
   border-radius: 3px;
   background-color: antiquewhite;
 }
-#about_div button:hover{
+
+#about_div button:hover {
   background-color: rgb(212, 190, 162);
 
 }
 
-#skills_div{
+#skills_div {
   border: 2px solid red;
   width: 90%;
   margin: auto;
-  display: grid;;
+  display: grid;
+  ;
   justify-content: center;
   margin: auto;
-  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
 }
 
-#skills_div div{
+#skills_div div {
   border: 2px solid blue;
   text-align: center;
 }
 
+#projects_con {
+  border: 2px solid white;
+
+}
+
+#projects_div {
+  display: grid;
+  width: 90%;
+  margin: auto;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#projects_con img {
+  width: 100%;
+}
+
+#projects_div .project-card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px 25px;
+  text-align: center;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+
+#projects_div .project-card>h2,
+#projects_div .project-card>p,
+#projects_div .project-card>a{
+  margin: 2%;
+  /* text-align: center; */
+}
+
+.project_btn {
+  /* border: 3px solid rebeccapurple; */
+  display: flex;
+  justify-content: space-around;
+}
+.project_btn a{
+  padding: 10px 15px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+
+#GitHub_statistics{
+  width: 100%;
+  border: 2px solid blue;
+}
+
+#GitHub_statistics_card{
+  width: 98%;
+  margin: auto;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(3,1fr);
+  border:  3px solid yellow;
+}
+#GitHub_statistics_card img{
+  width: 100%;
+}
+.react-activity-calendar{
+  width: 100%;
+  margin: auto;
+}
+.react-activity-calendar img{
+  width: 100%;
+}
 
 
 
@@ -141,37 +224,43 @@ color: white;
 
 
 
-
-
-
-
-
-
-
-
-
-
-@media all and (min-width: 200px) and (max-width: 630px){
-  #about_div{
+@media all and (min-width: 200px) and (max-width: 630px) {
+  #about_div {
     width: 100%;
     margin: auto;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
-  #about_div>div:nth-child(2){
+
+  #about_div>div:nth-child(2) {
     width: 100%;
     border: 2px solid rebeccapurple;
     color: white;
-    
-    }
-    
-    #home-section div{
-      margin-left: 0%;
-      margin-top: 30px;
-      width: 100%;
-    }
-    #about_div p,h1{
-      justify-content: center;
-    }
+
+  }
+
+  #home-section div {
+    margin-left: 0%;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  #about_div p,
+  h1 {
+    justify-content: center;
+  }
+
+  #skills_div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #projects_div {
+    gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #GitHub_statistics_card{
+    grid-template-columns: repeat(1,1fr);
+  }
 }
