@@ -210,16 +210,64 @@ h1 {
   width: 100%;
 }
 .react-activity-calendar{
-  width: 100%;
+  width: 98%;
   margin: auto;
 }
 .react-activity-calendar img{
   width: 100%;
 }
 
+#contact_me{
+  width: 98%;
+  margin: auto;
+  border: 3px solid black;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+#contact_card{
+  /* height: 300px; */
+  /* border: 2px solid red; */
+  /* text-align: center; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  padding: 10px;
+ 
+}
+#contact_card div{
+  display: flex;
+  /* border: 1px solid blue; */
+}
+#contact_me>div:nth-child(1){
+  width: 70%;
+  margin-left: 10%;
+}
+ #contact_card p{
+  margin-left: 2%;
+} 
+#contact-linkedin{
+  margin-left: 4%;
+}
 
-
-
+#contact2{
+  margin-left: -25%;
+}
+#contact2 div{
+  width: 96%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+#contact2 input,
+#contact2 textarea{
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+}
+#contact2 input::placeholder,
+#contact2 textarea::placeholder
+{
+  font-size: larger;
+}
 
 
 
@@ -262,5 +310,23 @@ h1 {
   }
   #GitHub_statistics_card{
     grid-template-columns: repeat(1,1fr);
+  }
+  #contact_me{
+    width: 99%;
+    margin: auto;
+    grid-template-columns: repeat(1,1fr);
+  }
+  #contact_me>div:nth-child(1){
+    width: 100%;
+  }
+  #contact2{
+    margin: auto;
+    width: 100%;
+    
+  }
+  #contact2 div{
+    width: 100%;
+    margin: auto;
+ 
   }
 }
