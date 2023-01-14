@@ -239,7 +239,7 @@ h1 {
 #contact_me{
   width: 98%;
   margin: 20px auto;
-  border: 3px solid black;
+  /* border: 3px solid black; */
   display: grid;
   grid-template-columns: repeat(2,1fr);
 }
@@ -303,6 +303,10 @@ h1 {
 .project-deployed-link:hover{
   background-color: #0497ec;
   color: white;
+}
+
+#contact2 button{
+  padding: 10px;
 }
 
 @media all and (min-width: 200px) and (max-width: 630px) {
