@@ -70,12 +70,12 @@
       position: fixed;
       top: 0px;
       right: 0px;
-      left: 70%;
+    background-color: #01302a;
+    left: 70%;
       z-index: 10;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background: rgb(168, 181, 93);
       transition: top 1s ease 0s;
       display: none;
     }
