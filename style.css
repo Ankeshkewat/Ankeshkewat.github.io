@@ -7,6 +7,7 @@ body {
   background-color: #9eb0d4
 }
 
+
 #nav-menu {
   /* background-color: #333; */
   background-color: #01302a;
@@ -236,6 +237,7 @@ h1 {
   width: 100%;
 }
 
+
 #contact_me{
   width: 98%;
   margin: 20px auto;
@@ -293,8 +295,9 @@ h1 {
 
 #resume-button-1{
   background-color: azure;
-  font-size: larger;
+  /* font-size: larger; */
   padding: 5px;
+  margin-top: -5px;
 }
 .project-github-link:hover{
   background-color: #0497ec;
@@ -309,7 +312,7 @@ h1 {
   padding: 10px;
 }
 
-@media all and (min-width: 200px) and (max-width: 630px) {
+@media all and (min-width: 200px) and (max-width: 800px) {
   #about_div {
     width: 100%;
     margin: auto;
