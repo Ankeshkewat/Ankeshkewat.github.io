@@ -86,14 +86,12 @@ h4 {
 
 #about_me_con {
   background-color:#0e1629;
+ padding: 30px 0 30px 0;
+}
+#user-detail-intro{
+  line-height: 150%;
 }
 
-#about_div>div:nth-child(1) {
-  width: 100%;
-  text-align: center;
-  /* border: 2px solid green; */
-
-}
 #skills_section{
  /* background-color: #203e7d;   */
  background-color: #9eb0d4;  
@@ -101,9 +99,16 @@ h4 {
  margin-top: 0;
  border: 2px solid;
 }
-
+#img-div{
+  width: 100%;
+  display: flex;
+  text-align: center;
+align-items: center;
+justify-content: center;
+}
 #about_div img {
-  border-radius: 100%;
+  width: 80%;
+  border-radius: 5px;
 }
 
 #about_div>div:nth-child(2) {
@@ -116,7 +121,7 @@ h4 {
 #user-detail-name {
   display: flex;
   flex-wrap: nowrap;
-  line-height: 50px;
+  /* line-height: 50px; */
 }
 
 #about_div h1 {
@@ -134,8 +139,9 @@ h1 {
 
 #about_div button {
   border: none;
+  margin-top: 10px;
   padding: 10px;
-  font-size: 29px;
+  font-size: 20px;
   border-radius: 3px;
   background-color: antiquewhite;
 }
@@ -188,9 +194,12 @@ h1 {
 }
 
 #projects_div .project-card {
+  border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding: 20px 25px;
+  background-color: rgb(14,22,41);
+  /* padding: 20px 25px; */
   text-align: center;
+  color: white;
   /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
 }
 
@@ -312,9 +321,9 @@ h1 {
   padding: 10px;
 }
 
-@media all and (min-width: 200px) and (max-width: 800px) {
+@media all and (min-width: 100px) and (max-width: 800px) {
   #about_div {
-    width: 100%;
+    /* width: 100%; */
     margin: auto;
     text-align: center;
     display: grid;
@@ -332,6 +341,7 @@ h1 {
     margin-left: 0%;
     margin-top: 30px;
     width: 100%;
+
   }
 
   #about_div p,
@@ -340,7 +350,7 @@ h1 {
   }
 
   #skills_div {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -356,9 +366,9 @@ h1 {
     margin: auto;
     grid-template-columns: repeat(1,1fr);
   }
-  #contact_me>div:nth-child(1){
+  /* #contact_me>div:nth-child(1){
     width: 100%;
-  }
+  } */
   #contact2{
     margin: auto;
     width: 100%;

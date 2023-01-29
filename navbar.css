@@ -71,7 +71,7 @@
       top: 0px;
       right: 0px;
     background-color: #01302a;
-    left: 70%;
+    /* left: 70%; */
       z-index: 10;
       flex-direction: column;
       justify-content: center;
@@ -83,7 +83,7 @@
       display: block;
       position: absolute;
       top: 20px;
-      right: 20px;
+      right: 20px
     }
     nav .openMenu {
       display: block;
@@ -92,10 +92,10 @@
       background: none;
       color: rgb(255, 123, 0);
     }
-    .icons i {
+    /* .icons i {
       display: inline-block;
       padding: 12px;
-    }
+    } */
     nav {
       justify-content: space-between;
     }
