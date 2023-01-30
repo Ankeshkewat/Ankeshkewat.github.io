@@ -228,7 +228,7 @@ h1 {
 }
 
 #GitHub_statistics_card{
-  width: 98%;
+  width: 95%;
   margin: auto;
   display: grid;
   /* gap: 25px; */
@@ -320,7 +320,10 @@ h1 {
 #contact2 button{
   padding: 10px;
 }
-
+.calendar{
+  width: 95%;
+  margin: auto;
+}
 @media all and (min-width: 100px) and (max-width: 800px) {
   #about_div {
     /* width: 100%; */
