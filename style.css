@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   /* background-color: #91c2d2; */
-  /* background-color: #3c5259 */
+  /* bacsolidkground-color: #3c5259 */
   background-color: #9eb0d4
 }
 
@@ -255,6 +255,7 @@ h1 {
   /* border: 3px solid black; */
   display: grid;
   grid-template-columns: repeat(2,1fr);
+  /* border: 5px solid blue; */
 }
 #contact_card{
   /* height: 300px; */
@@ -272,16 +273,13 @@ h1 {
   display: flex;
   /* border: 1px solid blue; */
 }
-#contact_me>div:nth-child(1){
+#contact_card{
   width: 70%;
   margin-left: 10%;
 }
  #contact_card p{
   margin-left: 2%;
 } 
-#contact-linkedin{
-  margin-left: 4%;
-}
 
 #contact2{
   margin-left: -25%;
@@ -302,6 +300,7 @@ h1 {
 #contact2 textarea::placeholder
 {
   font-size: larger;
+  font-family: Arial, sans-serif;
 }
 
 #resume-button-1{
@@ -356,7 +355,6 @@ h1 {
     width: 100%;
 
   }
-
   #about_div p,
   h1 {
     justify-content: center;
@@ -379,9 +377,7 @@ h1 {
     margin: auto;
     grid-template-columns: repeat(1,1fr);
   }
-  /* #contact_me>div:nth-child(1){
-    width: 100%;
-  } */
+
   #contact2{
     margin: auto;
     width: 100%;
@@ -390,6 +386,24 @@ h1 {
   #contact2 div{
     width: 100%;
     margin: auto;
- 
   }
+
+  /* #contact_me>div:nth-child(1){
+    border: 2px solid yellow;
+  
+  } */
+
+  #contact_card{
+    width: 80%;
+  }
+
+#contact_card>div{
+  text-align: center;
+  /* border: 1px solid; */
+  align-items: center;
+  width: 100%;
+  /* justify-content: center; */
+}
+
+
 }
