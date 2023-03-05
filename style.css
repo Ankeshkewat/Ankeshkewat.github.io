@@ -407,3 +407,8 @@ h1 {
 
 
 }
+
+.project-description,.project-tech-stack{
+  line-height: 25px;
+  font-size: large;
+}
