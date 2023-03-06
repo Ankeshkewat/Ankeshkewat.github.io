@@ -37,7 +37,7 @@
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     font-size: 18px;
-    transition: 0.2s ease;
+    transition: width 2s, height 4s;
   }
   nav .mainMenu li a:hover {
     background: rgb(0, 255, 251);
