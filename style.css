@@ -270,7 +270,7 @@ h1 {
 }
 #contact_card div{
   display: flex;
-  /* border: 1px solid blue; */
+  align-items: center;
 }
 #contact_card{
   width: 70%;
