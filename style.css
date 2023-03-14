@@ -294,6 +294,7 @@ h1 {
   width: 80%;
   padding: 10px;
   border-radius: 5px;
+  border: none;
 }
 #contact2 input::placeholder,
 #contact2 textarea::placeholder
